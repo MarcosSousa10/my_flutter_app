@@ -15,9 +15,13 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/details': (context) => DetailsScreen(),
       },
-    ); //flutter run
+    );
   }
 }
+//flutter create my_flutter_app
+  //347  flutter pub get
+ //flutter run
+
 
 class HomeScreen extends StatelessWidget {
   @override
