@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/details': (context) => DetailsScreen(),
       },
-    );
+    ); //flutter run
   }
 }
 
